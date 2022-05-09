@@ -19,12 +19,10 @@
         }
 
         function pagamento(){
-            if($this->getCadastro() == false){
-                echo "Verifique o cadastro "; 
-            } else if ($this->getCadastro() == true) {
-                echo "\n O aluno ",$this->getNome()," realizou o pagamento ";
-            }
+            echo " O aluno ",$this->getNome()," realizou o pagamento ";
+        
         }
+
 
         
 

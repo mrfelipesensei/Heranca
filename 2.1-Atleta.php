@@ -6,16 +6,6 @@
         private $desconto;
 
 
-        function cadastrar(){
-            $this->cadastro = true;
-            echo "Cadastro realizado ";
-        }
-        
-        function cancelarCadastro(){
-            $this->cadastro = false;
-            echo "Cadastro cancelado ";
-        }
-
         function pagamento(){
             if($this->getCadastro() == false){
                 echo "Verifique o cadastro "; 
